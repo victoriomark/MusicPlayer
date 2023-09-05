@@ -9,7 +9,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 1rem;
         align-items: center;
         background-color: #040D12;
        font-family: 'poppins',sans-serif;
@@ -73,4 +72,9 @@ i:active{
     background-color: #040D12;
     color: aliceblue;
     cursor: pointer;
+}
+@media (width <= 768px){
+    .container{
+        width: 100%;
+    }
 }
